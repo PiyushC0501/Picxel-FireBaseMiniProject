@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: none;
+    border-radius: none;
+    overflow: hidden;
+}
+
+.navbar li a{
+    color:black;
+    text-decoration: none;
+    &:hover{
+     color: gray;
+    }
+}
+
+.navbar li{
+    padding: 10px;
+    float: left;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+.login-container{
+    float: right;
+    background-color: rgb(52, 134, 169);
+    padding: 10px 15px;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    border-radius: 10px;
+}
+.login-container a{
+    text-decoration: none;
+    color: Black;
+    &:hover{
+        color: white;
+    }
+}
+
+.HeadSection{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 95vh;
+    align-items: center;
+    background: url(Images/headImg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.HeadSection h3{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
+}
+
+.HeadSection p{
+    color: white;
+    max-width: 450px;
+    position: relative;
+    bottom: 100px;
+}
+
+.HeadSection button{
+    background: None;
+    color:white;
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.aboutPage a{
+   text-decoration: none;
+   color: white;
+}
+
+.overview{
+    padding: 50px;
+}
+
+.overview h3{
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px 400px;
+    border-bottom: 2px solid rgb(224, 134, 134);
+    align-items: center;
+}
+
+.desciption{
+    padding: 30px;
+    display: flex;
+    height: 200px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.desciption p {
+    font-size: 15px;
+    padding: 50px;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.box{
+    color: White;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 50px;
+    border: 2px solid black;
+}
+.box h4{
+    font-size: 25px;
+    border-bottom: 2px solid Gray;
+    margin: 20px;
+}
+
+.box p{
+    margin: 20px;
+}
+
+.nature{
+    background: url(Images/environmental-protection-326923_1920.jpg);
+}
+
+.space{
+    background: url(Images/saturn-54999_640.jpg);
+}
+
+.city{
+    background: url(Images/city1.jpg);
+}
+
+.Adventure{
+    background: url(Images/adv3.avif);
+}
+
+.Devotional{
+    background: url(Images/devo.jpg);
+}
+
+.arts{
+    background: url(Images/art5.jpg);
+}
+
+.faq{
+    margin: 20px 300px;
+    cursor: pointer;
+}
+
+.faq h2{
+    text-align: center;
+    padding: 10px;
+}
+.question{
+    position: relative;
+    left: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid rgb(224, 134, 134);
+    width: 530px;
+} 
+
+.question li {
+    list-style:square;
+}
+
+.answer{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    overflow: hidden;
+    max-height: 0px;
+}
+
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.faq.active .answer{
+    max-height: 300px;
+}
+
+
+.footer{
+    background-color: rgb(224, 134, 134);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer li {
+    padding: 10px;
+  list-style: none;
+  color: White;
+}
+
+.footer-bottom{
+    text-align: center;
+}
